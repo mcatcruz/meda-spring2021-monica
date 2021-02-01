@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="utf-8">
+    <title>Block & Inline, Filepaths, and Entities & Symbols</title>
+</head>
+<body>
+    <!--Block and Inline-->
+        <!--Block will take up the entire width of the page. Height can be specified.-->
+        <p style='background: grey; height: 50px'>This is a sentence.</p>
+        <p style='background: pink'; >This is a second sentence.</p>
+        
+        <!--Inline don't need height or width specified. Their size is dictated by the content. They typically wrap around  the page.-->
+        <!--Elements that are inherently inline: img, a, and text content-->
+        <p style='background: grey;'>Bonbon cookie apple pie cheesecake fruitcake jelly powder sweet roll gummies. Caramels soufflé muffin cheesecake pudding t roll halvah fruitcake. Brownie chocolate chocolate cake cheesecake icing halvah ice cream pie.</p>
+        <p style='background: pink;'>This is a second sentence.</p>
+    <!--End of Block and Inline-->
+
+    <!--Filepaths-->
+        <!-- ../ means one path level up-->
+        <!--note: fish.png will not work bc it isn't in Eduardo's repo-->
+        <img src='../../../fish.png' alt='Nemo the clownfish from Finding Nemo'>
+    <!--End of Filepaths-->
+
+    <!--Entities and Symbols-->
+        <!-- see HTML charset for other special characters-->
+        <p style ='background: pink;'>This is character &#60; represents the less than symbol. This character &#47 is the forward slash symbol.</p>
+        <p style='background: tomato'>&trade; Monica 2021</p>
+    <!--End of Entities and Symbols-->
+    
+</body>
+</html>

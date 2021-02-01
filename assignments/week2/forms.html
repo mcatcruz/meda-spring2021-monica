@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Form Examples for HTML</title>
+</head>
+
+<body>
+    <h1>Sign up for my awesome service!</h1>
+    <form>
+        <label for="username">Username:</label>
+        <input id="username" type='text' name='email'>
+        <br>
+        <label for="password">Password:</label>
+        <input id="password" type='password' name='password'>
+        <br>
+        <label>Favorite Flower:</label>
+        <!--checked attribute creates a default selection-->
+        <p><input type='checkbox' name='flower' value='peony' checked>Peony</p>
+        <p><input type='checkbox' name='flower' value='peony'>Hydrangea</p>
+        <p><input type='checkbox' name='flower' value='poppy'>Poppy</p>
+        <label>Favorite Pastime:</label>
+        <p><input type='radio' name='pastime' value='sleep'></input>Sleep</p>
+        <p><input type='radio' name='pastime' value='games'>Video games</p>
+        <p><input type='radio' name='pastime' value='cycling' checked>Cycling</p>
+        <p><input type='radio' name='pastime' value=''>Other: <input type='text'></p>
+        <label>Favorite Movie Genre:</label>
+        <p><input type='radio' name='genre' value='action'>Action</p>
+        <p><input type='radio' name='genre' value='adventure' checked>Adventure</p>
+        <p><input type='radio' name='genre' value='drama'>Drama</p>
+        <input type='submit'>
+        <input type='reset'>
+        <input type='button' value='Do Nothing'>
+    </form>
+    <!--name and value attributes are important for backend. they represent key:value pairs-->
+        <!--Examples-->
+        <!--(line 11) email: 'whatever is typed'-->
+        <!--(line 14) password: 'whatever is typed'-->
+        <!--flower:peony-->
+        <!--pastime:cycling-->
+        <!--genre:adventure-->  
+</body>
+</html>

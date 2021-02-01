@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <title>HTML Summary</title>
+        <!--Internal CSS-->
+        <style>
+            p {
+                color: tomato;
+                font-size: 24px;
+                font-family:"Arial";
+                font-weight:bold;
+                font-style: italic;
+                line-height: 34px; /* controls amount of space between text: font-size + amount of space you want*/
+                word-spacing: 12px;
+                letter-spacing: 2px;
+            }
+            h1 {
+                color: cornflowerblue;
+            }
+            ul li {
+                color:orange;
+            }
+            ol li {
+                color:palegoldenrod;
+            }
+            #special {
+                color:palevioletred;
+            }
+            #submitbutton {
+                background-color: papayawhip;
+            }
+            main article form input {
+                background-color: paleturquoise;
+            }
+            #password {
+                background-color: palegreen;
+            }
+            img {
+                width: 400px;
+                height: 400px;
+                border-width: 5px;
+                border-color: black;
+                border-style: solid;
+                border-radius: 210px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header></header>
+        <main>
+            <!--article element is where a bulk of the webpage information goes-->
+            <article>
+                <h1>This is a summary of HTML5.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus enim dolore corporis natus maxime libero earum, sunt numquam harum illum nam nisi quam, minima vel odit est iusto modi aut?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel suscipit velit sit exercitationem provident earum quaerat, alias repellat quasi assumenda in adipisci, recusandae consequuntur consectetur beatae dolor reiciendis perspiciatis delectus.</p>
+                <ul>
+                    <li>Eat</li>
+                    <li>Sleep</li>
+                </ul>
+                <ol>
+                    <li>Pizza</li>
+                    <li>Sushi</li>
+                </ol>
+                <dl>
+                    <dt>p</dt>
+                    <dd>Used for normal text.</dd>
+                    <dt>h1</dt>
+                    <dd>Used for headings (level 1).</dd>
+                </dl>
+                <figure>
+                    <img src='pexels-photo-1030925.jpeg' alt="This is an image file that doesn't exist." width='200' height='200'>
+                    <figcaption id='special'>This is an image.</figcaption>
+                </figure>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Column 1</td>
+                            <td>Column 2</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data 1</td>
+                            <td>Data 2</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <form>
+                    <label for='username'>Username</label>
+                    <input type='text' id='username'>
+                    <label for="password">Password</label>
+                    <input type='password' id='password'>
+                    <input type='submit' id='submitbutton'>
+                </form>
+            </article>
+        </main>
+        <footer></footer>
+    </body>
+</html>

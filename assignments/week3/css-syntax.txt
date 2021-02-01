@@ -1,0 +1,8 @@
+Selector {
+    Property Name: Value;
+}
+
+p {
+    color: blue;
+    font-size: 72px;
+}
