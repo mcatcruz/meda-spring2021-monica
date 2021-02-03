@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Specificity Examples</title>
+    <style>
+        #redbox, #bluebox, #greenbox {
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+
+        #redbox {
+            background-color: tomato;
+        }
+        #bluebox {
+            background-color: paleturquoise;
+        }
+        #greenbox {
+            background-color: palegreen;
+        }
+        div {
+            background: cyan;
+        }
+        body main form #password {
+
+        }
+        
+        body .container .sidebar p {
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id='redbox' class='box'></div>
+    <div id='bluebox' class='box'></div>
+    <div id='greenbox' class='box'></div>
+</body>
+</html>
+
+<!--divs are block level elements. They will take up all the width.-->

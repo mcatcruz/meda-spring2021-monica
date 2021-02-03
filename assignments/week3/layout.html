@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout One</title>
+    <style>
+        body {
+            background-color: lightcoral;
+            margin: 0;
+        }
+        div {
+
+        }
+        #header {
+            width: 700px;
+            height: 100px;
+            background-color: palegreen;
+            margin: 0 auto;
+        }
+        #main {
+            width: 700px;
+            /* height: 500px; */
+            background-color: white;
+            margin: 0 auto;
+            /*overflow prevents margine collapse*/
+            overflow: hidden;
+            text-align: center;
+        }
+        #main div {
+            width: 150px;
+            height: 150px;
+            background-color: thistle;
+            margin: 5px;
+            margin-right: 20px;
+            margin-left: 20px;
+            display: inline-block;
+            /*by default, text will align bottom*/
+            vertical-align: text-top;
+        }
+        #footer {
+            width: 700px;
+            height: 200px;
+            background-color: palegreen;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id='header'>
+        <h1>This is my website!</h1>
+    </div>
+    <div id='main'>
+        <div>
+            <p>hello</p>
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+    </div>
+    <div id='footer'></div>
+</body>
+</html>

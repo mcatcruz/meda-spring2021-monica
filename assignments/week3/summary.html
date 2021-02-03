@@ -4,6 +4,7 @@
         <meta charset='utf-8'>
         <title>HTML Summary</title>
         <!--Internal CSS-->
+        <!--style element belongs in the head section-->
         <style>
             p {
                 color: tomato;
@@ -27,9 +28,7 @@
             #special {
                 color:palevioletred;
             }
-            #submitbutton {
-                background-color: papayawhip;
-            }
+
             main article form input {
                 background-color: paleturquoise;
             }
@@ -43,6 +42,44 @@
                 border-color: black;
                 border-style: solid;
                 border-radius: 210px;
+            }
+            #first-table {
+                border: 1px dashed powderblue;
+                /* border-width: 1px;
+                border-style: dashed;
+                border-color:powderblue; */
+                width: 400px;
+                border-spacing: 10px;
+                background-color: lightyellow;
+            }
+
+            #first-table tr {
+                border: 1px dotted powderblue
+            }
+
+            #first-table td {
+                border: 1px solid gold;
+                border-radius: 5px;
+                padding: 10px;
+                background-color: seashell;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            #username {
+                background-color: inherit;
+                margin: 20px 20px 10px 10px;
+                padding: 5px;
+                border: slategray 2px solid;
+                border-radius: 8px;
+            }
+            #submitbutton {
+                width: 52px;
+                height: 52px;
+                padding: 0;
+                border-radius: 50%;
+                border-color: blueviolet;
+                border-style: solid;
+                color: white;
+                background-color: red;
             }
         </style>
     </head>
@@ -73,7 +110,15 @@
                     <img src='pexels-photo-1030925.jpeg' alt="This is an image file that doesn't exist." width='200' height='200'>
                     <figcaption id='special'>This is an image.</figcaption>
                 </figure>
-                <table>
+
+                <!--Rules for naming IDs and Classes-->
+                <!-- * Don't start with a number
+                     * Don't use special characters
+                     * Don't use spaces unintentionally
+                     * Don't capitalize the first letter
+                -->
+
+                <table id='first-table'>
                     <thead>
                         <tr>
                             <td>Column 1</td>
