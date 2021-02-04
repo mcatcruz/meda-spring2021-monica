@@ -1,30 +1,39 @@
 1st Paragraph: A little bit about myself, my hobby, and why I enjoy doing it.
-	My name is Monica Cruz and I discovered watercolor painting in the beginning of the pandemic. I enjoy painting because it is a relaxing activity. It exercises your creativity muscles in many ways: seeing what colors would go together and how to incorporate "mistakes" because there is no undo button to name a few. Lastly, it is satisfying finishing a piece! 
+	I discovered watercolor painting during the pandemic, something to do while sheltering in place. It is a relaxing pastime. I especially enjoy painting still life, flowers, and plants. Painting with watercolor exercises your creativity muscles. You also learn other material and skills along the way. I learned about color theory and troubleshooting when there is no undo button through watercolors. Lastly, it is satisfying finishing a piece, big or small!
 
 2nd Paragraph: Instructions on how to do your hobby for someone that has never done your hobby.
-	To get started, you will need a couple of materials: *unordered list*  
-	[TAKE PHOTO OF MATERIALS]
-	1. Watercolor paint. There are so many to choose from! The Sennelier Petite Acquerelle Watercolor Paint has a wide range of colors and amazing color payoff.
-	2. Two cups for water. These can be of any material. One will be to clean your brushes between colors and the other for starting a new color. This is a perfect way to repurpose old candle jars.
-	3. Rags. For wiping your brushes. Essential if you get too much water on the brush.
-	4. Paper. Any paper will work, but there are specific paper for watercolor painting available. I recommend Canvas XL (link). This special paper is a heavier weight that prevents the paper from warping. They come in different textures and weights. Also have scratch paper in handy for quick paint swatches before committing the colors to your final piece.
-	5. Easel. This is not necessary to start painting, but is nice to have for ergonomics, especially if you are working in larger pieces.
-	6. Paintbrushes. These come in different materials, from synthetic to expensive and highly sable hair. They also come in different sizes. I recommend this set (link) as it has good variety of sizes and soft bristles. 
-	7. Pencil and eraser. For lightly sketching your idea before painting. This is optional, but highly recommended.
+
+Materials
+	You do not need to the most expensive, studio-quality items to get started. That being said, it is worth taking the time to research the materials. There are plenty of recommendations online, such as this starter kit guide from Scratch Made Journal. See below for a list of suggestions.
+
+	- Paint. There are so many to choose from! The Sennelier Petite Acquerelle Watercolor Paint has a wide range of colors and amazing color payoff. It also comes with a built-in palette for mixing colors.
+	- Paper. Any unlined paper will work, but there is specific paper for watercolor available. They come in different textures and weights. The Canson XL Mix Media Notebook, for example, is heavier to prevent warping. Also, have scratch paper in handy for quick paint swatches before committing the colors to your final piece.
+	- Paintbrushes. These come in different materials, from synthetic to the expensive and highly coveted sable hair. They also come in different sizes. The Princeton & Co. Synthetic Brush Set has a good variety of sizes and soft bristles that helps paint glide smoothly.
+	- Two cups for water. One for cleaning your brushes between colors and the other for starting a new color. This is the perfect time to repurpose old candle jars.
+	- Rags. For wiping your brushes. Essential if you get too much water on the brush.
+	- Pencil and eraser. For ligthly sketching your idea before painting. This is optional, but highly recommended, especially for intricate work.
+	- Easel. This is not necessary to get your painting journey started, but it is nice to have for ergonomics, especially when working on larger pieces.
      
-	[TAKE PHOTO OF WORK STATION]
-	Now that you are all set up, let's begin painting! *ordered list*
-	1. Lightly sketch your idea onto the paper (optional, but highly recommended).  
-	2. Dip brush lightly in CLEAN water cup. 
-	3. Swipe the brush into color of choice. It is helpful to pick up color by either doing a circular motion with the brush or small rapid swiping motions.
-	4. Swatch it on your scratch paper (optional, but highly recommended). This gives you an opportunity to check the color. If you want less pigment, wipe excess onto the rag and/or dip lightly back into the water to dilute the color. If you want more pigment, repeat step 2.
-	5. Paint away! Once you are happy with the color on your brush, it's time to swipe the brush onto your work paper. There's really no wrong way to do this. It is best to start with a light hand as you can always add more paint. 
-	6. To switch to a new color: dip your brush into the DIRTY water cup. Ensure that the brush is touching the bottom of the cup. Do figure eight motions with your wrist in order rinse out all the color. Dab on to the rag and do a few swatches until no more color remains.
-	7. Repeat steps 2 thru 5 with the new color.            
+Let's Begin!
+	1. Lightly sketch your idea onto the paper (optional).
+	2. Dip brush lightly into the clean water cup.
+	3. Swipe the brush into color of choice. It is helpful to pick up color by either doing small circular motions or rapid swiping motions with the brush.
+	4. Swatch it on your scratch paper (optional). This is an opportunity to check the color. For less pigment, wipe excess onto the rag and/or dip the brush lightly into the water to dilute the color. For more pigment, repeat step 2.
+	5. Paint away! Once satisfied with the color on your brush, it's time to swipe the brush onto the work paper. It is best to start with a light hand; you can always add more paint later on.
+	6. To switch to a new color: dip your brush into the dirty water cup. Ensure that the brush is touching the bottom of the cup. Swirl the brush in figure eight motions to thoroughly rinse the bristles. Dab brush on the rag and do a few swatches on scratch paper until no more color remains.
+	7. Repeat steps 2 through 5 with the new color.     
+ 
+Paint Anything, Paint Everything
+	When it comes to painting with watercolor, the possibilities are endless. Inspiration is everywhere! It is very easy to get into a rabbithole of ideas on what to paint or what technique to learn next. See the Appendix for additional resources.
 
 3rd Paragraph: Provide additional tips and online resources for further skill development.
+
 Appendix: hyperlinks to resources (even if linked in the paragraphs), references, image credits
-	Here are the materials that I mentioned above.
+
+Referenced Above
+	
+	Watercolor Supplies for Beginners by Scratch Made Journal
+	https://www.scratchmadejournal.com/blog/watercolor-supplies-for-beginners
 
 	Sennelier Petite Acquerelle Watercolor Paint
 	https://www.amazon.com/Sennelier-Petite-Aquarelle-Watercolor-Paint/dp/B01F47044A
@@ -35,30 +44,36 @@ Appendix: hyperlinks to resources (even if linked in the paragraphs), references
 	Princeton & Co. Synthetic Brush Set
 	https://www.amazon.com/RealValue-Golden-Taklon-Brushes-Set/dp/B0061U0X0U/ref=asc_df_B0061U0X0U/?tag=hyprod-20&linkCode=df0&hvadid=198100706044&hvpos=&hvnetw=g&hvrand=9526586030935450011&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031951&hvtargid=pla-349099909839&psc=1
 
-	Here are links on Youtube and a book that I follow to help me get started.
+	How to Repurpose Candle Jars by Architectural Digest
+	https://www.architecturaldigest.com/story/how-to-get-wax-out-of-a-candle-jar
+
+
+Additional Tutorials and Examples
 	
 	The Joy of Watercolor: 40 Happy Lessons for Painting the World Around You by Emma Block
 	https://www.amazon.com/Joy-Watercolor-Lessons-Painting-Around/dp/0762463295
 
-	Shayda Campbell
+	Watercolor Tutorials by Shayda Campbell
 	https://www.youtube.com/channel/UCcR1TUaD8Zn6P6O8hOA-xYA
 
-	Farah Bidin
+	Watercolor Masterclass by Farah Bidin
 	https://www.instagram.com/paintstobrushes/
 	https://www.skillshare.com/user/paintstobrushes
+
+	11 Essential Watercolor Techniques All Painters Need to Know by Sara Barnes for My Modern Met
+	https://mymodernmet.com/watercolor-techniques/
 	
-	Phil Maltz
+	Paintings of London Shop Facades by Phil Maltz
 	https://www.instagram.com/maltzcreative
 
-	Cynthia Bauzon-Arre
-	https://cynthiabauzonarre.com/
+	Paintings of Filipino Trees, Plants, and Flowers by Cynthia Bauzon-Arre
 	https://www.instagram.com/arncyn
 	
+Image Credits
 
-	Here are links to the images that I used, but did not take myself.
-
-	Photo by Julia Volk from Pexels @volkroad
-	https://www.pexels.com/photo/picture-of-cock-painted-with-watercolors-placed-on-table-6157689/
+	Olya Kobruseva
+	https://www.pexels.com/photo/painting-of-a-bunny-on-white-paper-6487208/
+	https://www.instagram.com/leeloothefirst
 
 	Photo by Andreea Ch from Pexels
 	https://www.instagram.com/lutfain.andreea.chiser/
@@ -68,6 +83,3 @@ Appendix: hyperlinks to resources (even if linked in the paragraphs), references
 	Photo by Lum3n from Pexels
 	https://www.pexels.com/photo/pink-and-blue-watercolor-painting-587958/
 	https://www.instagram.com/elum3a/
-
-	Here are miscellaneous links that I referenced.
-	https://www.architecturaldigest.com/story/how-to-get-wax-out-of-a-candle-jar
