@@ -1,0 +1,13 @@
+- Colorway
+I took inspiration from Tobias Ahlin's (https://tobiasahlin.com/blog/) blog as well as Mary Gaudin's portfolio (https://marygaudin.com/) for my portfolio's colorway. I especially liked that their websites used muted colors, yet are still attention-grabbing. 
+
+The background color is a cool green (417B5A). I chose a statement color and reminds me of nature.
+The header and link text is dark jungle green (0E1B14), the body and link hover text is linen (FEEFE5).  I chose these colors for contrast, but I did not want the contrast to be too stark, so I refrained from using black and white. 
+
+Other colors that I want to use on my portfolio are mauve (A4778B) and champagne pink (E9D2C0). I chose these colors to add warmth to my webpage. 
+
+HOMEPAGE (ABOUT ME)
+The homepage will have links to Projects, Contact, and About Me. 
+
+CONTACT
+PROJECTS
