@@ -1,13 +1,51 @@
 - Colorway
-I took inspiration from Tobias Ahlin's (https://tobiasahlin.com/blog/) blog as well as Mary Gaudin's portfolio (https://marygaudin.com/) for my portfolio's colorway. I especially liked that their websites used muted colors, yet are still attention-grabbing. 
-
 The background color is a cool green (417B5A). I chose a statement color and reminds me of nature.
 The header and link text is dark jungle green (0E1B14), the body and link hover text is linen (FEEFE5).  I chose these colors for contrast, but I did not want the contrast to be too stark, so I refrained from using black and white. 
 
 Other colors that I want to use on my portfolio are mauve (A4778B) and champagne pink (E9D2C0). I chose these colors to add warmth to my webpage. 
 
 HOMEPAGE (ABOUT ME)
-The homepage will have links to Projects, Contact, and About Me. 
+The homepage will have a short profile:
+
+Hello, I'm Monica. For the past decade I have been working in the nutrition and healthcare field, the last five years as a registered dietitian in San Francisco.I am transitioning into web development and hope to work with and for companies that value inclusion and non-traditional backgrounds. This is where I will be sharing my projects and progress.
+
+Since starting my coding journey, I've also discovered (and re-discovered) other interests. Currently loving watercolors, reading in the park, Peaky Blinders, and karaoke songs. Always looking for new snacks to try. Open to recommendations -- send them my way via the contacts (link)!
+
+*Link to resume*
 
 CONTACT
+The contact page will have a link to my e-mail address (mcatcruz@gmail.com) and LinkedIn profile (https://www.linkedin.com/in/monica-cruz-rd/).
+
 PROJECTS
+The projects page will have images of my work from Mission Techies and a note saying: "More to come -- stay tuned!"
+Github repo: https://github.com/mcatcruz/meda-spring2021-monica
+
+Portfolio Examples: 
+
+https://tobiasahlin.com/blog/
+I like the muted color palette. I like the block text used for the headings.
+
+I like the block text used for headings and header menu. I like the effect applied when you hover over one of the menu links. I like that the burger icon, blog logo, and search icon are in gray, which emphasizes the header menu. I dislike that the name of the author is not in the header.  
+
+I like that each blogpost has a different background color. I dislike too much animation. I like that overall, the website is attention-grabbing; however, it is a little bit too busy. 
+
+I like that the footer is non-traditional and looks like it's part of the body. I like that the heading ("Say hi") is placed above the footer section. 
+
+
+https://marygaudin.com/
+I like the statement green for the background color. I like the typography. I like the simple design of the website. 
+
+
+I like the layout of the menu in the header. I like the underlined effect applied when hovering over the links. I like that the website's owner is easily identifiable.
+
+I dislike the layout of the images in the body. I dislike the fixed journal link on the righthand side of the page.
+
+The mirroring effect of the header menu in the footer is interesting. 
+
+http://www.sarahlichang.com/
+I like the lightness and simplicity of this portfolio. The header contains the website owner's name and menu. I like that the link you are in is a different color from the rest of the menu. 
+
+The body contains a short profile of the author. I dislike the Wikipedia links. I do like that the link text is in a different color. 
+
+The footer contains social media icons and copyright. I like that the icons are easily identified. I dislike how dark the icons are.    
+
