@@ -7,7 +7,7 @@ Other colors that I want to use on my portfolio are mauve (A4778B) and champagne
 HOMEPAGE (ABOUT ME)
 The homepage will have a short profile:
 
-Hello, I'm Monica. For the past decade I have been working in the nutrition and healthcare field, the last five years as a registered dietitian in San Francisco.I am transitioning into web development and hope to work with and for companies that value inclusion and non-traditional backgrounds. This is where I will be sharing my projects and progress.
+Hey there, I'm Monica. For the past decade I have been working in healthcare, the last five years as a registered dietitian in San Francisco.I am transitioning into web development and hope to work with fox who value inclusion and non-traditional backgrounds.
 
 Since starting my coding journey, I've also discovered (and re-discovered) other interests. Currently loving watercolors, reading in the park, Peaky Blinders, and karaoke songs. Always looking for new snacks to try. Open to recommendations -- send them my way via the contacts (link)!
 
@@ -52,6 +52,15 @@ The footer contains social media icons and copyright. I like that the icons are 
 Update 2/23
 I chose the Manrope font family because it is sleek. 
 https://fonts.google.com/specimen/Manrope?category=Sans+Serif,Monospace&preview.text=monica%20cruz&preview.text_type=custom&selection.family=Manrope:wght@300;500
+
+Update 2/24
+I needed to resize the self-portrait in order to prevent skewing. 
+
+Update 2/25
+Edited bio in index.html
+Removed text from the contact page. I prefer having the oversized icons by themselves. 
+Added credits for the icons in the footer.
+Updated contacts wireframe in portfolio_docs.
 
  
 
