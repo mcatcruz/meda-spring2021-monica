@@ -17,7 +17,7 @@ CONTACT
 The contact page will have a link to my e-mail address (mcatcruz@gmail.com) and LinkedIn profile (https://www.linkedin.com/in/monica-cruz-rd/).
 
 PROJECTS
-The projects page will have images of my work from Mission Techies and a note saying: "More to come -- stay tuned!"
+The projects page will have images of my work from Mission Techies.
 Github repo: https://github.com/mcatcruz/meda-spring2021-monica
 
 Portfolio Examples: 
@@ -62,5 +62,8 @@ Removed text from the contact page. I prefer having the oversized icons by thems
 Added credits for the icons in the footer.
 Updated contacts wireframe in portfolio_docs.
 
- 
+Update 2/26
+Edited work wireframe since I only have one project screenshot to share so far.
+Also omitted "more to come, stay tuned!" I think the page looks much cleaner with as little text as possible.
+Added headings to each page as suggested by W3 validator. 
 

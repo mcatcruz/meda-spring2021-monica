@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>    
+
+//Define and assign value
+var myFinalVariable = ['String is a collection of characters', true, 10000];
+    // The value is an array holding the String, Boolean, and number data types.
+
+myFinalVariable = {} 
+    // Empty object
+
+
+var myFinalObjects = {"someValue": 1000};
+
+var myLargeObject = {
+    "first": 1000,
+    "second": 2000,
+    "third": 3000
+};
+
+// If statements
+
+if (//some condition) {
+    //This will only run if the condition is true.
+}
+
+if (//some condition) {
+
+} else {
+    //This will only run if all other conditions in the if statement is false.
+}
+
+if (//some condition) {
+
+} else if (//some condition) {
+    //This will only run if the condition in the else if is true.
+}
+
+//Loops: While, Do While, For
+    var counter = 0;
+    while (counter < 10) {
+        counter++;
+    }
+
+    var counter2 = 0;
+    do {
+        counter2++;
+    } while (counter2 < 10);
+
+    for (var counter =0; counter < 10; counter++) {
+        //code block
+    }
+
+    // Functions, Parameters, and Arguments 
+
+    function myFinalFunction(param1, param2) {
+        console.log(param1);
+        return param2;
+    }
+
+    var savedReturnData = myFinalFunction('arg1', 'arg2');
+    myFinalFunction('value1', 'value2');
+
+    //undefined and null
+
+    var noValueVar;
+    console.log(noValueVar); //expected output: undefined
+
+    var empty = 'my credit card name';
+    empty = null;
+    console.log(empty); //expected output: null 
+
+    //Type coercion
+
+    //String to number
+
+    var num1 = 10 + "100"; 
+    var num2 = "10" + 100;
+        //these are being concatenated  so expected output: '10100', '10100'
+
+    // Truthy & Falsy values
+    
+    //FALSEY
+    null;
+    undefined;
+    0;
+    ''; //empty string
+    []; //empty array
+
+
+    //TRUTHY
+    -1;
+    1;
+    " "; //space character
+
+    var test = 0;
+    if (test) {
+        console.log('this is a truthy value.');
+    } else {
+        console.log('this is a falsy value.');
+    }
+
+    true == true;
+    false == false;
+        // === means the value AND the data type have to be the same 
+        // == means the value has to be the same
+</script>
+</body>
+</html>

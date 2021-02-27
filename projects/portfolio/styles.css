@@ -20,19 +20,30 @@ a:hover {
     text-decoration: none;
 }
 
- /* li.current {
+body#home a#homenav,
+body#work a#worknav,
+body#contact a#contactnav {
     color: #A4778B;
     text-decoration: none;
-} */
+}
+
 
 .header {
     font-size: 2em;
     margin-top: 1em;
 }
 
-h1 {
+h1
+{
     margin: 0;
     letter-spacing: 25px;
+}
+
+h4,
+h5 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E9D2C0;
 }
 
 .nav ul {
@@ -64,8 +75,7 @@ img.selfie {
     align-self: center;
 }
 
-main article.bio,
-main article.work {
+main article.bio {
     margin: 30px;
     font-size: 0.9em;
     text-align: justify;
@@ -73,16 +83,25 @@ main article.work {
 }
 
 main article.contact {
-    margin: 50px;
+    /* margin: 50px; */
     width: 50%;
 }
 
 img.email,
 img.linkedin,
+img.hobby
  {
     align-self: flex-start;
 }
 
+
+img.hobby {
+    border: #0E1B14 .1px solid;
+}
+
+main article.work {
+    font-size: 0.9em;
+} 
 
 .footer {
     font-size: 0.7em;
