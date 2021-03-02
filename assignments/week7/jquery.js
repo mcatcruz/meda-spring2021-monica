@@ -37,15 +37,23 @@ $(document).ready(function() {
 
     formSubmit.click(function () {
         var submittedData = $('#user-info').val();
+        if (submittedData = "") {
+            $("#results").text("no input"); 
+        } else {
+            //parseInt(); converts value provided into a number data type.
+            var convertedData = parseInt(submittedData);
 
-        //parseInt(); converts value provided into a number data type.
-        var convertedData = parseInt(submittedData);
+            if (isNaN(convertedData)) {
+                $("#results").text("invalid input");
+            } else {
 
-        //Multiply the value by 10
-        var math = convertedData * 1000;
+                //Multiply the value by 10
+                var math = convertedData * 1000;
 
-        //Write a sentence with the results into our p element
-        $('#results').text('We multiplied your number by 1000 and got: ' + math);
+                //Write a sentence with the results into our p element
+                $('#results').text('We multiplied your number by 1000 and got: ' + math);
+            }
+        }
     });
     
 }); 

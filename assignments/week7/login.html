@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+        body {
+            margin: 0;
+        }
+        #form-layout {
+            width: 400px;
+            background-color:tomato;
+            margin: 0 auto;
+
+            /* 50vh means 50% of the viewport height (i.e. the entire browser).
+               118px is from half the HEIGHT of the #form-layout. This value is obtained from devtools (236px / 2 = 118px)  */
+
+            margin-top: calc(50vh - 123px);
+            border-radius: 8px;
+        }
+        #form-layout form {
+            text-align: center;
+        }
+        #form-layout label {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.5em;
+            text-align: left;
+            padding: 10px;
+            display: block;
+            color: white;
+        }
+        #form-layout input {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.5em;
+            border-radius: 8px;
+            border-style: none;
+            display: inline-block;
+            width: 94%;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        #form-layout button {
+            display: inline-block;
+            /* height: 2.5em; */
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.2em;
+            margin: 10px;
+            border-style: none;
+            border-radius: 8px;
+            background-color:rgb(91, 185, 99);
+            color: white;
+            padding: 5px 20px;
+        }
+    </style>
+    <script src='jquery-3.5.1.min.js'></script>
+</head>
+<body>
+    <div id='form-layout'>
+        <form>
+            <label for='username'>Username</label>
+            <input type='text' id='username'>
+            <br>
+            <label for='password'>Password</label>
+            <input type='password' id='password'>
+            <br>
+            <button id='login'>Log In</button>
+        </form>
+</div>
+
+    <script src='login.js'></script>
+</body>
+</html>
