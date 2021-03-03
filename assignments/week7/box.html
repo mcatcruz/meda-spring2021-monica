@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Box</title>
+    <style>
+        #firstBox {
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+            border-radius: 50%;
+        }
+    </style>
+    <script src='jquery-3.5.1.min.js'></script>
+</head>
+<body>
+    <div id='firstBox'></div>
+    <script>
+        let wUp = 119;
+        let aLeft = 97;
+        let sDown = 115;
+        let dRight = 100;
+        $(document).ready(function () {
+            $('body').keypress(function (event) {
+                var myBox = $("#firstBox");
+                var key = event.which;
+                if (key === wUp) {
+                    var marginTop = myBox.css('margin-top');
+                    if (marginTop !== '0px') {
+                        myBox.css('margin-top', '-=20px');
+                    }
+                } else if (key === aLeft) {
+                    var marginLeft = myBox.css('margin-left');
+                    if (marginLeft !== '0px') {
+                        myBox.css('margin-left', '-=20px');
+                    }
+                } else if (key === sDown) {
+                    myBox.css('margin-top', "+=20px");
+                } else if (key === dRight) {
+                    myBox.css('margin-left', '+=20px')
+                }
+            });
+        });
+        // This is the long-hand:
+            // var currentMarginTop = $('#firstBox').css('margin-top');
+            // currentMarginTop = parseInt(currentMarginTop);
+            // var newMargin = (currentMarginTop + 10) + "px";
+            // $('#firstBox').css('margin-top', newMargin);
+    </script>
+    
+</body>
+</html>
