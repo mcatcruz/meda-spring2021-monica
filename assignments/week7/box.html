@@ -17,13 +17,47 @@
 <body>
     <div id='firstBox'></div>
     <script>
+        // //Random Number Generator for 1 to 10
+
+        //     //Make a random number between 0 and 0.9~
+        //     var random = Math.random();
+        
+        //     var random1To10 = (random * 10) + 1;
+
+        //     //Math.floor() will always round DOWN
+        //     //Math.ciel() will always round UP 
+        //     //Math.round() will always round based on the decimal.
+
+        //     random1To10 = Math.floor(random1To10);
+        
+        //Random Number Generator END 
+
+        //Note that this is a HELPER FUNCTION.
+        function random0to255() {
+            var random = Math.random() * 256; // range: 0-255.9~
+            random = Math.floor(random);
+            return random;
+        }
+
+        function randomCssColor() {
+            var colorR = random0to255();
+            var colorG = random0to255();
+            var colorB = random0to255();
+
+            var randomRGB = `rgb(${colorR}, ${colorG}, ${colorB})`;
+            return randomRGB;
+        }
+
         let wUp = 119;
         let aLeft = 97;
         let sDown = 115;
         let dRight = 100;
+
+
         $(document).ready(function () {
             $('body').keypress(function (event) {
                 var myBox = $("#firstBox");
+                myBox.css('background-color', randomCssColor());
                 var key = event.which;
                 if (key === wUp) {
                     var marginTop = myBox.css('margin-top');
