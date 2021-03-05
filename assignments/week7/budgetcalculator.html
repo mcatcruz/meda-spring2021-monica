@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Calculator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap');
+        #container {
+            width: 900px;
+            background-color: #FED766;
+            margin: 0 auto;
+        }
+        #inputs {
+            display: flex;
+            font-family: 'Inconsolata', monospace;
+            flex-flow: row wrap;   
+        }
+      
+        #inputs div {
+            flex-grow: 1;
+            flex-basis: 50%;
+            /* flex-grow: 1;
+            flex-basis: 50%;
+            display: inline-block;
+            clear: left;
+            width: 50%;
+            text-align: right; */
+        }
+        #expense {
+            background-color:#2AB7CA;
+        }
+        #income {
+            background-color: #5FAD56;
+        }
+        .form {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: flex-end;
+            align-content: center;
+
+        }
+        .input {
+            border-style: none;
+            background-color: #F4F4F8;
+            align-self: flex-start;
+        }
+        .label {
+            align-self: flex-start;
+            margin-bottom: 0.2em;
+        }
+
+        button {
+            font-family: 'Inconsolata', monospace;
+            border-style: none;
+            margin: 0.5em;
+            padding: 0.5em;
+            background-color: #FED766;
+        }   
+        #reset {
+            margin-bottom: 2.5em;
+            font-size: 0.9em;
+        }
+        #submit {
+            display: block;
+            margin: 0 auto;
+            padding: 1em;
+            order: 3;
+            font-size: 1.2em;
+        }
+        #results {
+            background-color:#FE4A49;
+        }
+        h1,
+        h2,
+        p {
+            font-family: 'Inconsolata', monospace;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 {
+            padding: 0.75em;
+            font-size: 2.5em;
+        }
+        h2 {
+            padding-top: 1em;
+            padding-bottom: 0.75em;
+            font-size: 1.7em;
+        }
+        p {
+            padding: 1.25em;
+            width: 50%;
+            text-align: justify;
+        }
+    </style>
+    <script src='jquery-3.5.1.min.js'></script>
+</head>
+<body>
+    <div id='container'>
+        <h1>Budget Calculator</h1>
+        <br>
+        <p> Disclaimer: This calculator uses inaccurate tax rates.</p>
+        <div id='inputs'>
+            <div id='expense'>
+                <h2>Monthly Expenses</h2>
+                <form class='form'>
+                    <label class ='label' for='food'>Food</label>
+                    <input class='input' type='number' id='food'>
+                    <br>
+                    <label class ='label' for='rent'>Rent</label>
+                    <input class='input' type='number' id='rent'>
+                    <br>
+                    <label class ='label' for='utilities'>Utilities</label>
+                    <input class='input' type='number' id='utilities'>
+                    <br>
+                    <label class ='label' for='phone'>Phone</label>
+                    <input class='input' type='number' id='phone'>
+                    <br>
+                    <label class ='label' ßfor='debt'>Debt</label>
+                    <input class='input' type='number' id='debt'>
+                    <br>
+                    <label class ='label' for='fund'>Rainy Day Fund</label>
+                    <input class='input' type='number' id='fund'>
+                    <br>
+                    <label class ='label' for='hobbies'>Hobbies</label>
+                    <input class='input' type='number' id='hobbies'>
+                    <br>
+                    <label class ='label' for='commute'>Commute</label>
+                    <input class='input' type='number' id='commute'>
+                    <br>
+                    <label class ='label' for='insurance'>Insurance</label>
+                    <input class='input' type='number' id='insurance'>
+                    <br>
+                    <button id='reset'>Reset</button>
+                </form>
+
+            </div>
+            <button id='submit'><b>Calculate</b></button>
+            <div id='income'>
+                <h2>Monthly Income</h2>
+                <form class='form'>
+                    <label class ='label' for='job'>Day Job</label>
+                    <input class='input' type='number' id='job'>
+                    <br>
+                    <label class ='label' for='hustle'>Side Hustle</label>
+                    <input class='input' type='number' id='hustle'>
+                    <br>
+                    <label class ='label' for='invest'>Investments</label>
+                    <input class='input' type='number' id='invest'>
+                    <br>
+                    <button id='reset'>Reset</button>
+                </form>
+            </div>
+        </div>
+        <div id='results'>
+            <h2>Results</h2>
+            <p id='monthly'></p>
+            <p id='yearly'></p>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#submit').click(function () {
+                
+                //Expenses START
+
+                var food = parseFloat($('#food').val());
+                var rent = parseFloat($('#rent').val());
+                var utilities = parseFloat($('#utilities').val());
+                var mobile = parseFloat($('#phone').val());
+                var debt = parseFloat($('#debt').val());
+                var rainyDay = parseFloat($('#fund').val());
+                var hobbies = parseFloat($('#hobbies').val());
+                var commute = parseFloat($('#commute').val());
+                var insurance = parseFloat($('#insurance').val());
+
+                var totalExpenses = food + rent + utilities + mobile + debt + rainyDay + hobbies + commute + insurance;
+
+                //Expenses END
+
+                //Income START
+
+                var dayJob = parseFloat($('#job').val());
+                var hustle = parseFloat($('#hustle').val());
+                var investments = parseFloat($('#invest').val());
+
+                var totalIncome = dayJob + hustle + investments;
+
+                var difference = totalIncome - totalExpenses;
+
+                console.log(difference);
+                
+                //Income END
+
+                var employeeTaxRate = 0.21;
+                var contractorTaxRate = 0.363;
+                var employeeTaxAmount = dayJob * employeeTaxRate;
+                var contractorTaxAmount = hustle * contractorTaxRate;
+                var taxTotal = employeeTaxAmount + contractorTaxAmount;
+
+                difference -= taxTotal;
+
+
+                // Results START
+
+                if (difference > 0) {
+                    $('#monthly').text('Congrats, make it rain with your extra $' + difference + ' this month! You put away $' + taxTotal + ' in taxes.');
+                } else if (difference < 0) {
+                    $('#monthly').text('You are in the negative. Can\'t make it rain, but maybe next month! Heads up, you also need to think about $' + Math.abs(difference) + ' in taxes.');
+                } else if (difference === 0) {
+                    $('#monthly').text('You are zen-level balanced! Heads up, you also need to think about $' + taxTotal + ' in taxes.');
+                } else if (isNaN(difference)) {
+                    $('#monthly').text('One of your entries is not a number. Please try again!');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
