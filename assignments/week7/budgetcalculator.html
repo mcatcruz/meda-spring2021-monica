@@ -116,7 +116,7 @@
                     <label class ='label' for='phone'>Phone</label>
                     <input class='input' type='number' id='phone'>
                     <br>
-                    <label class ='label' ßfor='debt'>Debt</label>
+                    <label class ='label' for='debt'>Debt</label>
                     <input class='input' type='number' id='debt'>
                     <br>
                     <label class ='label' for='fund'>Rainy Day Fund</label>
@@ -162,7 +162,15 @@
         $(document).ready(function () {
             $('#submit').click(function () {
                 
-                //Expenses START
+                //Auto-fill Empty Input
+
+                $('.input').each(function () {
+                    if ($(this).val() === '') {
+                        $(this).val(0);
+                    }
+                });
+
+            //     //Expenses START
 
                 var food = parseFloat($('#food').val());
                 var rent = parseFloat($('#rent').val());
@@ -175,10 +183,10 @@
                 var insurance = parseFloat($('#insurance').val());
 
                 var totalExpenses = food + rent + utilities + mobile + debt + rainyDay + hobbies + commute + insurance;
+  
+            //     //Expenses END
 
-                //Expenses END
-
-                //Income START
+            //     //Income START
 
                 var dayJob = parseFloat($('#job').val());
                 var hustle = parseFloat($('#hustle').val());
@@ -190,18 +198,19 @@
 
                 console.log(difference);
                 
-                //Income END
+            //     //Income END
 
                 var employeeTaxRate = 0.21;
                 var contractorTaxRate = 0.363;
                 var employeeTaxAmount = dayJob * employeeTaxRate;
                 var contractorTaxAmount = hustle * contractorTaxRate;
                 var taxTotal = employeeTaxAmount + contractorTaxAmount;
+                taxTotal = Math.round(100*taxTotal)/100;
 
                 difference -= taxTotal;
+                difference = Math.round(100*difference)/100;
 
-
-                // Results START
+            //     // Results START
 
                 if (difference > 0) {
                     $('#monthly').text('Congrats, make it rain with your extra $' + difference + ' this month! You put away $' + taxTotal + ' in taxes.');
@@ -209,8 +218,6 @@
                     $('#monthly').text('You are in the negative. Can\'t make it rain, but maybe next month! Heads up, you also need to think about $' + Math.abs(difference) + ' in taxes.');
                 } else if (difference === 0) {
                     $('#monthly').text('You are zen-level balanced! Heads up, you also need to think about $' + taxTotal + ' in taxes.');
-                } else if (isNaN(difference)) {
-                    $('#monthly').text('One of your entries is not a number. Please try again!');
                 }
             });
         });

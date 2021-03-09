@@ -45,6 +45,7 @@
             var colorB = random0to255();
 
             var randomRGB = `rgb(${colorR}, ${colorG}, ${colorB})`;
+            console.log(randomRGB);
             return randomRGB;
         }
 
@@ -57,22 +58,25 @@
         $(document).ready(function () {
             $('body').keypress(function (event) {
                 var myBox = $("#firstBox");
-                myBox.css('background-color', randomCssColor());
                 var key = event.which;
                 if (key === wUp) {
                     var marginTop = myBox.css('margin-top');
                     if (marginTop !== '0px') {
                         myBox.css('margin-top', '-=20px');
+                        myBox.css('background-color', randomCssColor());
                     }
                 } else if (key === aLeft) {
                     var marginLeft = myBox.css('margin-left');
                     if (marginLeft !== '0px') {
                         myBox.css('margin-left', '-=20px');
+                        myBox.css('background-color', randomCssColor());
                     }
                 } else if (key === sDown) {
                     myBox.css('margin-top', "+=20px");
+                    myBox.css('background-color', randomCssColor());
                 } else if (key === dRight) {
-                    myBox.css('margin-left', '+=20px')
+                    myBox.css('margin-left', '+=20px');
+                    myBox.css('background-color', randomCssColor());
                 }
             });
         });
